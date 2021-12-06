@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: grey;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 10px;
+    height: 60px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+li {
+    text-align: center;
+    padding: 14px 12px;
+}
+
+a {
+    text-decoration: none;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.üst-yazı {
+    font-size: 0.9rem;
+    color: rgb(26, 26, 26);
+}
+
+.menu-bg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.menu-bg:hover {
+    background-color: rgba(100, 100, 100, .1);
+    cursor: pointer;
+}
+
+.menu-icon {
+    width: 15px;
+    color: rgb(26, 26, 26);
+}
+
+.profil-foto {
+    border-radius: 50%;
+    width: 100%;
+    margin-top: 6px;
+    cursor: pointer;
+}
+
+.profil-foto:hover {
+    border-radius: 50%;
+    width: 100%;
+    margin-top: 6px;
+    cursor: pointer;
+    box-shadow: 0 1px 3px 3px rgba(201, 201, 201, 0.5);
+}
+
+.google-logo {
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+form {
+    position: relative;
+    margin-top: 30px;
+}
+
+input {
+    width: 580px;
+    height: 45px;
+    padding-left: 50px;
+    font-size: 1.2rem;
+    border-radius: 45px;
+    border: 1px solid #d3d3d3;
+}
+
+input:hover {
+    box-shadow: 0 1px 3px 1px rgba(201, 201, 201, 0.5);
+}
+
+input:focus {
+    outline: none;
+}
+
+.ara {
+    width: 15px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+
+}
+
+.fas {
+    width: 15px;
+    position: absolute;
+    top: 16px;
+    left: 503px;
+
+}
+
+.mikrofon {
+    width: 15px;
+    position: absolute;
+    top: 12px;
+    left: 540px;
+    cursor: pointer;
+}
+
+.butonlar {
+    width: 350px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+button {
+    border: 1px solid transparent;
+    padding: 8px 12px;
+    background-color: #f8f9fa;
+    border-radius: 5px;
+    color: rgb(26, 26, 26);
+}
+
+button:hover {
+    border: 1px solid #eee;
+    box-shadow: 0 0 2px 1px rgba(189, 189, 189, 0.5);
+    cursor: pointer;
+}
+
+footer {
+    width: 100%;
+    background-color: #f2f2f2;
+}
+
+.alt-part {
+    border: 1px solid #ddd;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.alt-part>* {
+    flex-basis: 33%;
+}
+
+.karbon {
+    text-align: center;
+}
+
+p {
+    color: grey;
+    padding-left: 13px;
+}
+
+.yaprak {
+    width: 12px;
+}
+
+.right {
+    justify-content: flex-end;
+}
